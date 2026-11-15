@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "dinx.jasper-rounded",
+  "name": "Jasper Rounded",
+  "author": "DINX",
+  "license": "GPL-3.0-only",
+  "source": "https://github.com/rufl/Jasper-gtk-theme",
+  "asset_version": "1.2.0",
+  "requires": {
+    "palette_api": 1,
+    "style_api": 1,
+    "profile_api": 1
+  },
+  "palettes": {
+    "dark": "dark.json",
+    "light": "light.json"
+  },
+  "style": {
+    "tokens": "tokens.json",
+    "css": "components.css"
+  },
+  "profiles": [
+    "profiles/gtk.json",
+    "profiles/qt5ct.json",
+    "profiles/qt6ct.json",
+    "profiles/kcolorscheme.json",
+    "profiles/ghostty.json"
+  ],
+  "defaults": [
+    {
+      "application": "gtk",
+      "profile": "dinx.skeuos-rounded.gtk"
+    },
+    {
+      "application": "qt5ct",
+      "profile": "dinx.skeuos-rounded.qt5ct"
+    },
+    {
+      "application": "qt6ct",
+      "profile": "dinx.skeuos-rounded.qt6ct"
+    },
+    {
+      "application": "kcolorscheme",
+      "profile": "dinx.skeuos-rounded.kcolorscheme"
+    },
+    {
+      "application": "ghostty",
+      "profile": "dinx.skeuos-rounded.ghostty"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "dinx.jasper-rounded.ghostty",
+  "application": "ghostty",
+  "adapter": "ghostty",
+  "name": "Jasper Rounded · ghostty",
+  "author": "DINX",
+  "license": "MIT",
+  "source": "https://github.com/rufl/Jasper-gtk-theme",
+  "asset_version": "1.1.0",
+  "variants": [
+    "dark",
+    "light"
+  ],
+  "templates": [
+    {
+      "path": "profiles/ghostty.conf",
+      "output": "ghostty.conf"
+    }
+  ],
+  "instructions": "Applied to Ghostty-based terminals, including Deetty, while this theme is active."
+}

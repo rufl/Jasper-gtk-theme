@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "dinx.jasper-square.qt5ct",
+  "application": "qt5ct",
+  "adapter": "qt5ct",
+  "name": "Jasper Square · qt5ct",
+  "author": "DINX",
+  "license": "MIT",
+  "source": "https://github.com/rufl/Jasper-gtk-theme",
+  "asset_version": "1.1.0",
+  "variants": [
+    "dark",
+    "light"
+  ],
+  "templates": [
+    {
+      "path": "profiles/qtct-colors.conf",
+      "output": "qtct-colors.conf"
+    }
+  ],
+  "instructions": "Applied through qt5ct while this theme is active."
+}
